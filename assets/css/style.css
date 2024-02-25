@@ -226,7 +226,7 @@ footer {
     header {
         background-image: url('../images/Header\ Background.png');
         width: 100vw;
-        height: 70vh;
+        height: 100vh;
         background-size: contain;
         background-repeat: no-repeat;
     }
