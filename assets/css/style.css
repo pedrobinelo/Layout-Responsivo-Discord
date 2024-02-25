@@ -223,23 +223,28 @@ footer {
     align-items: center;
 }
 @media screen and (min-width:1280px){
-    header {
+   header {
         background-image: url('../images/Header\ Background.png');
         width: 100vw;
         background-size: contain;
         background-repeat: no-repeat;
+        margin-bottom: 0;
     }
     .header-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 8rem;
+        width: 100%;
     }
     .banner-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1.5rem;
     }
     header .header-content .banner-content h1{
         width: 19.5625rem; /* 313px / 16px = 19.5625rem */
@@ -281,6 +286,7 @@ footer {
         flex: none;
         order: 2;
         flex-grow: 0;
+        margin-top: 0;
     }
     
     #b1 {
@@ -330,6 +336,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     
     .content1-image picture {
@@ -378,11 +385,9 @@ footer {
         align-items: center;
         padding: 0px;
         gap: 1rem; /* 16px / 16px = 1rem */
-        height: 28rem; /* 448px / 16px = 28rem */
-        left: 0rem; /* 0px / 16px = 0rem */
-        top: 58.3125rem; /* 933px / 16px = 58.3125rem */
         background: #F6F6F6;
         width: 100vw;
+        height: 100vh;
     }
     
     .content2-info{
